@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+/* Color  */
+.bg-col-1 {
+    background-color: #1A0B2E;
+}
+.bg-col-2 {
+    background-color: #230E3D;
+}
+.linear {
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+}
+/* Color end  */
+
+
+/* Shared style  */
+.flex {
+    display: flex;
+}
+
+/* End  */
+
+/* Navbar  */
+#header {
+    position: relative;
+    border-bottom: 1px solid #412567;
+}
+.nav-container {
+    padding: 16px;
+    width: 75%;
+    max-width: 1900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    font-size: 1.50rem;
+    color: #ffffff;
+}
+#secondary-col {
+    color: transparent;
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav-item ul {
+    list-style: none;
+    gap: 35px;
+}
+#nav-item ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 120%;
+    
+}
+.h-btn button {
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 600px;
+    color: #ffffff;
+    border-radius: 10000px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.h-btn button:hover {
+    background: linear-gradient(45deg, #9100F8, #FB09B4, #F7E93F);
+    transform: translateY(-2px)
+}
+
+/* Nav End  */
+
+/* Banner part  */
