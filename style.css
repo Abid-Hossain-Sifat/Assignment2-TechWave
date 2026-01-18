@@ -22,6 +22,10 @@
 .flex {
     display: flex;
 }
+.container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
 
 /* End  */
 
@@ -77,6 +81,9 @@ button i {
 .h-btn button:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.25);
+}
+.menu-icon {
+    display: none !important;
 }
 
 /* Nav End  */
@@ -181,6 +188,111 @@ button i {
     transform: rotate(10deg);
 }
 
+/* Banner end  */
+
+/* Podcast sec  */
+.pod-content {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    max-width: 718px;
+    margin: auto;
+}
+.pod-content .title {
+    font-size: 3rem;
+    font-weight: 700px;
+    margin-bottom: 25px;
+}
+.pod-content .description {
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.pod-content .sub-des {
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+.pod-container hr {
+    border: 1px solid #302342;
+}
+
+.analysis-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+    margin-bottom: 120px;
+    border: 1px solid red;
+}
+.analysis-container .analysis {
+    justify-items: center;
+}
+.analysis h2 {
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+.analysis p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 20px;
+}
+/* Podcast end  */
+
+/* techwave section  */
+#techwave {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#techwave .title h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.card-container{
+    width: 75%;
+    max-width: 1900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.Card {
+    border: 1px solid red;
+    background-color: #35116540;
+    border-radius: 40px;
+    padding: 40px;
+}
+.card1 {
+    grid-row: span 2;
+    padding: 100px;
+}
+.card2,
+.card3,
+.card4 {
+    grid-column: span 2;
+}
+.Card h3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.Card p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 24px;
+}
+/* techave section End  */
+
 
 
 
@@ -198,5 +310,21 @@ button i {
 
 /* responsive  */
 @media screen and (max-width: 576px) {
+    .menu-icon {
+        display: block !important;
+    }
+    .nav-container {
+        padding: 16px;
+        width: 100%;
+        max-width: 576px;
+    }
+    #nav-item, 
+    .h-btn {
+        display: none !important;}
+    
+    
+        
+        
+    
     
 }
