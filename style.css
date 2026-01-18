@@ -61,6 +61,9 @@
     line-height: 120%;
     
 }
+button i {
+    color: white;
+}
 .h-btn button {
     padding: 12px 16px;
     font-size: 1rem;
@@ -69,13 +72,131 @@
     border-radius: 10000px;
     border: none;
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .h-btn button:hover {
-    background: linear-gradient(45deg, #9100F8, #FB09B4, #F7E93F);
-    transform: translateY(-2px)
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.25);
 }
 
 /* Nav End  */
 
 /* Banner part  */
+.banner-sec {
+    background-image: url(./Image/hero-bg.png);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.banner-img {
+    width: 420px;
+    text-align: center;
+    padding-top: 120px;
+    position: relative;
+    margin-left: 750px;
+}
+ .banner-img .circle-img {
+    width: 420px;
+} 
+.mick-img img {
+    width: 140px;
+    position: absolute;
+    top: 37%;
+    right: 33%;
+}
+.tooltip {
+    color: 1A0B2E;
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 0px 3px 27px 0px #00FF8850;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    right: 6%;
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 #00FF8850; }
+    70% { box-shadow: 0 0 0 15px transparent; }
+    100% { box-shadow: 0 0 0 0 transparent; }
+}
+
+.banner-content {
+    text-align: center;
+}
+.banner-content h2 {
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.spotify-btn {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1000px;
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.spotify-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.25);
+}
+.subscribe-btn {
+    color: #00FF88;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600px;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 1000px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(0, 255, 136, 0);
+}
+.subscribe-btn:hover {
+    color: #ffffff;
+    background-color: #00FF88;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.25);
+}
+.fa-regular {
+    color: #00FF88;
+}
+.subscribe-btn:hover .fa-regular {
+    color: #ffffff;
+    transform: rotate(10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  */
+@media screen and (max-width: 576px) {
+    
+}
