@@ -377,6 +377,55 @@ button i {
     border: 1px solid #533C72;
     border-radius: 50%;
 }
+/* Host end  */
+
+/* Footer  */
+footer {
+    background-image: url(./Image/footer-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.footer h2 {
+    font-size: 6rem;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 32px;
+}
+.footer h2 span {
+    color: transparent;
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-media-container {
+    gap: 60px;
+    width: 34%;
+    height: auto;
+    max-width: 1900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer-media {
+    gap: 15px;
+}
+.footer-media p {
+    font-size: 1rem;
+    font-weight: 400px;
+    color: #FFFFFF60;
+    text-align: center;
+}
+.footer .copyright {
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 32px;
+    color: #FFFFFF60;
+}
 
 
 
@@ -417,10 +466,10 @@ button i {
 }
 
     .pod-content .pod-title {
-    font-size: 2rem;
-    margin-bottom: 16px;
-    width: 100%;
-    max-width: 576px;
+        font-size: 2rem;
+        margin-bottom: 16px;
+        width: 100%;
+        max-width: 576px;
 
 }
     .description {
@@ -449,6 +498,7 @@ button i {
 }
     #techwave {
         padding-bottom: 40px;
+        padding-top: 0;
 }
     #techwave .title h2 {
         width: 90%;
@@ -489,28 +539,33 @@ button i {
     .epi-content h2 {
         font-size: 1.25rem;
 }
+    #host-sec {
+        padding-bottom: 40px;
+    }
     #host-sec .title h2 {
+        padding-top: 60px;
         font-size: 2rem;
     }
     .host-info {
     padding-bottom: 60px;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    border-radius: 24px;
-    margin: 0 auto;
-    max-width: 576px;
+            flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        border-radius: 24px;
+        margin: 0 auto;
+        max-width: 576px;
 }
-.info h2 {
-    font-size: 1.5rem;
-    text-align: center;
+    .info h2 {
+        font-size: 1.5rem;
+        text-align: center;
 }
-.info p {
-    text-align: center;
+    .info p {
+        text-align: center;
 }
-.media-icon {
-    justify-content: center;
+    .media-icon {
+        justify-content: center;
 }
+
 
         
     
