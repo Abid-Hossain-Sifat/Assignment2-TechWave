@@ -23,8 +23,17 @@
     display: flex;
 }
 .container {
-  max-width: 1900px;
-  margin: 0 auto;
+    width: 75%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.title h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 
 /* End  */
@@ -143,7 +152,7 @@ button i {
     margin-top: 40px;
 }
 .banner-content p {
-    color: #FFFFFF;
+    color: #FFFFFF80;
     font-size: 1rem;
     font-weight: 400px;
     margin-top: 10px;
@@ -204,12 +213,14 @@ button i {
     margin-bottom: 25px;
 }
 .pod-content .description {
+    color: #FFFFFF80;
     font-size: 1rem;
     font-weight: 400px;
     line-height: 20px;
     margin-bottom: 30px;
 }
 .pod-content .sub-des {
+    color: #FFFFFF80;
     font-size: 1rem;
     font-weight: 400px;
     line-height: 20px;
@@ -236,7 +247,7 @@ button i {
     margin-bottom: 16px;
 }
 .analysis p {
-    color: #FFFFFF;
+    color: #FFFFFF80;
     font-size: 1rem;
     font-weight: 400px;
     line-height: 20px;
@@ -248,14 +259,6 @@ button i {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-#techwave .title h2 {
-    font-size: 3rem;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 700;
-    padding-top: 120px;
-    padding-bottom: 40px;
-}
 .card-container{
     width: 75%;
     max-width: 1900px;
@@ -264,7 +267,6 @@ button i {
     gap: 30px;
 }
 .Card {
-    border: 1px solid red;
     background-color: #35116540;
     border-radius: 40px;
     padding: 40px;
@@ -286,15 +288,95 @@ button i {
     margin-bottom: 16px;
 }
 .Card p {
-    color: #FFFFFF;
+    color: #FFFFFF60;
     font-size: 1rem;
     font-weight: 400px;
     line-height: 24px;
 }
 /* techave section End  */
+/* featured-episod section  */
+#featured-sec {
+    padding: 120px 0;
+}
+.episode-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.epi-card {
+    width: 100%;
+    max-width: 380px;
+    background-color: #250D44;
+    border-radius: 20px;
+}
+.epi-link iframe {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.epi-content {
+    padding: 24px;
+}
+.epi-content h2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700px;
+}
+.epi-content p {
+    color: #FFFFFF60;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 24px;
+    margin: 12px 0;
+}
+.time {
+    gap: 10px;
+    align-items: center;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.time p {
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600px;
+    line-height: 24px;
+}
+/* Episode link section end  */
 
-
-
+/* Host section  */
+#host-sec {
+    padding-bottom: 120px;
+}
+.host-info {
+    background-color: #35116540;
+    border-radius: 40px;;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+}
+.info h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+.info p {
+    color: #FFFFFF60;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.media-icon {
+    gap: 10px;
+}
+.media {
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
 
 
 
