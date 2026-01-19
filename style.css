@@ -123,7 +123,7 @@ button i {
     right: 33%;
 }
 .tooltip {
-    color: 1A0B2E;
+    color: #1A0B2E;
     background-color: #00FF88;
     padding: 8px 16px;
     border-radius: 1000px;
@@ -234,8 +234,7 @@ button i {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 80px;
-    margin-bottom: 120px;
-    border: 1px solid red;
+    padding-bottom: 120px;
 }
 .analysis-container .analysis {
     justify-items: center;
@@ -403,7 +402,6 @@ footer {
 }
 .footer-media-container {
     gap: 60px;
-    width: 34%;
     height: auto;
     max-width: 1900px;
     margin: 0 auto;
@@ -441,6 +439,60 @@ footer {
 
 /* responsive  */
 @media screen and (max-width: 576px) {
+    
+    .banner-sec {
+        background-position: center;
+        padding-bottom: 30px;
+    }
+
+    .banner-img {
+        width: 280px;
+        margin: 0 auto; 
+        padding-top: 60px; 
+        text-align: center;
+    }
+
+    .banner-img .circle-img {
+        width: 250px; 
+        transform: translate(-40%, -2%);
+    }
+
+    .mick-img img {
+        width: 90px; 
+        top: 55%;
+        left: 50%;
+        right: auto; 
+        transform: translate(-50%, -50%);
+    }
+
+    .tooltip {
+        
+        font-size: 1.25rem;
+        padding: 8px 16px;
+        top: 60px; 
+        right: -99px; 
+    }
+
+    .banner-content h2 {
+        font-size: 2rem; 
+        margin-top: 20px;
+        line-height: 1.2;
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+        padding: 0 15px; 
+    }
+
+    .spotify-btn, .subscribe-btn {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+
+
+
     .menu-icon {
         display: block !important;
     }
@@ -451,7 +503,13 @@ footer {
     }
     #nav-item, 
     .h-btn {
-        display: none !important;}
+        display: none !important;
+    }
+    .banner-img {
+        width: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     
     
     
@@ -467,6 +525,7 @@ footer {
 
     .pod-content .pod-title {
         font-size: 2rem;
+        padding-top: 40px;
         margin-bottom: 16px;
         width: 100%;
         max-width: 576px;
@@ -488,11 +547,11 @@ footer {
         margin-right: auto;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 30px;
-        margin-bottom: 40px;
+        margin-bottom: -40px;
     
 }
     .analysis h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: bold;
         margin-bottom: 15px;
 }
@@ -565,6 +624,40 @@ footer {
     .media-icon {
         justify-content: center;
 }
+
+footer {
+        background-image: url(./Image/footer-bg.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    .footer {
+        padding-bottom: 40px;
+    }
+    .footer h2 {
+        font-size: 2rem;
+        padding-top: 80px;
+        padding-bottom: 24px;
+    }
+    .footer-media-container {
+        flex-wrap: wrap;
+        max-width: 300px;
+        gap: 15px;
+    }
+    .footer-media {
+        gap: 8px;
+    }
+    .footer-media img {
+        width: 20px;
+        height: auto;
+    }
+    .footer .copyright {
+        font-size: 0.85rem;
+        margin-top: 24px;
+        padding: 0 16px;
+        text-align: center;
+    }
 
 
         
