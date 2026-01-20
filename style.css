@@ -459,6 +459,9 @@ footer {
 
 /* responsive  */
 @media screen and (max-width: 576px) {
+    body {
+  overflow-x: hidden;
+}
     .menu-icon {
         display: block !important;
     }
