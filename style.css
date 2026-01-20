@@ -59,7 +59,7 @@
 #secondary-col {
     color: transparent;
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #nav-item ul {
@@ -417,7 +417,7 @@ footer {
 .footer h2 span {
     color: transparent;
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .footer-media-container {
